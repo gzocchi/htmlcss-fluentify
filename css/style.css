@@ -1,6 +1,39 @@
+/* ----------common---------- */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+
+/* ----------header---------- */
+
+/* ----------main---------- */
+
+/* ----------footer---------- */
