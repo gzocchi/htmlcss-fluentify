@@ -10,15 +10,6 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-body > header {
-  height: 600px;
-  padding-top: 20px;
-  background-color: #0c325a;
-  background-image: url(../img/background-header.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: 130% 110%;
-}
 
 .container {
   width: 80%;
@@ -73,19 +64,20 @@ body > header {
 
 /* ----------layer---------- */
 /* header,
-main {
+main,
+footer {
   position: relative;
-  z-index: 1;
+  z-index: 1; 
 }
 .layer {
   position: fixed;
   height: 100vh;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
 }
 .layer > .help {
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   right: 15%;
   z-index: 1;
 } */
@@ -108,6 +100,16 @@ main {
 }
 
 /* ----------header---------- */
+body > header {
+  height: 600px;
+  padding-top: 20px;
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 130% 110%;
+}
+
 .header-nav {
   height: 50px;
   line-height: 50px;
@@ -129,7 +131,6 @@ main {
   padding-left: 3%;
   text-align: left;
 }
-
 .nav-right {
   width: 35%;
   height: 100%;
@@ -299,6 +300,6 @@ input {
   cursor: pointer;
 }
 select:focus,
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
