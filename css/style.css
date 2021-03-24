@@ -1,14 +1,4 @@
 /* ----------debug---------- */
-
-main section .w-50 {
-  height: 100%;
-  text-align: left;
-  background-color: chartreuse;
-}
-.w-50 img {
-  height: 100%;
-}
-
 /* ----------/debug---------- */
 
 /* ----------common---------- */
@@ -99,6 +89,23 @@ main {
   right: 15%;
   z-index: 1;
 } */
+
+/* hr space */
+.space {
+  display: inline-block;
+  height: 1px;
+  border-width: 0;
+  color: lightgrey;
+  background-color: lightgrey;
+}
+.box-space {
+  width: 20%;
+  margin: 25px 0;
+}
+.main-space {
+  width: 97%;
+  margin: 5px 0;
+}
 
 /* ----------header---------- */
 .header-nav {
@@ -192,6 +199,9 @@ main h2 {
 .row {
   margin-top: 35px;
 }
+.box-image {
+  display: inline-block;
+}
 
 .box.w-33 {
   height: 100%;
@@ -199,30 +209,49 @@ main h2 {
   padding: 30px;
 }
 
-.box-image {
-  display: inline-block;
+.box.w-33 > .box-image {
   height: 40%;
 }
-.box-image img {
+.box.w-33 img {
   width: 100%;
 }
 
-.box-text {
+.w-33 .box-text {
   display: inline-block;
   height: 60%;
   padding-top: 20px;
 }
-.box-text h2 {
-    color: #7cbb02;
+.box.w-33 h2 {
+  color: #7cbb02;
 }
-.box-text hr {
+
+.box.w-50 {
+  height: 100%;
+}
+
+.box.w-50 > .box-image {
+  width: 100%;
+  text-align: right;
+}
+.box.w-50 img {
+  width: 90%;
+}
+
+.w-50 .box-text {
   display: inline-block;
-  width: 20%;
-  margin: 25px 0;
-  height: 1px;
-  border-width: 0;
-  color: grey;
-  background-color: grey;
+  width: 70%;
+  text-align: left;
+}
+.box.w-50 h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.box.w-50 p {
+  margin-bottom: 20px;
+}
+.box.w-50 a {
+  color: #5a8abe;
+  font-size: 13px;
 }
 
 /* ----------footer---------- */
