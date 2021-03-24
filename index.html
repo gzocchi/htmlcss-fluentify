@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
     <link rel="stylesheet" href="css/style.css">
     <title>Fluentify by Boolean</title>
 </head>
 
 <body>
+
+    <!-- sezione con bottone fixed sempre visibile -->
+    <!-- <div class="layer">
+        <a href="#" class="help btn btn-green">help</a>
+    </div> -->
 
     <!-- testata della pagina  -->
     <header>
@@ -21,13 +26,54 @@
         <div class="container">
 
             <!-- sezione contentente logo e navbar -->
-            <div class="header-nav"></div>
+            <div class="header-nav clearfix">
+
+                <div class="header-logo float-left">
+                    <img src="img/logo.svg" alt="Fluentify Logo">
+                </div>
+
+                <nav class="nav-left float-left">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">il metodo</a>
+                        </li>
+                        <li>
+                            <a href="#">la tecnologia</a>
+                        </li>
+                        <li>
+                            <a href="#">real-life english</a>
+                        </li>
+                        <li>
+                            <a href="#">soluzioni aziendali</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="nav-right float-left">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">diventa un tutor</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-blue">login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-green">struttura un piano</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
 
             <!-- sezione contentente jumbotron -->
-            <div class="jumbotron"></div>
+            <div class="jumbotron">
 
-            <!-- sezione con bottone fixed sempre visibile -->
-            <div class="help"></div>
+                <div class="jumbotron-text w-50">
+                    <h1>Scegli l'inglese studiato per i professionisti</h1>
+                    <a href="#" class="btn btn-lg btn-green">struttura un piano</a>
+                </div>
+
+            </div>
 
         </div>
 
