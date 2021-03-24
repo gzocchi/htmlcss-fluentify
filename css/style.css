@@ -169,9 +169,11 @@ h1 {
 
 /* ----------main---------- */
 main {
-  height: 1000px;
+  /* height: 1000px; */
+  height: 100%;
   color: #818181;
   text-align: center;
+  margin-bottom: 50px;
 }
 main > header {
   position: relative;
@@ -255,3 +257,48 @@ main h2 {
 }
 
 /* ----------footer---------- */
+footer {
+  height: 150px;
+  line-height: 150px;
+  background-color: #d3d3d3;
+  color: #818181;
+}
+
+.ft-text h2 {
+  font-size: 30px;
+  color: #000000;
+  vertical-align: middle;
+}
+
+.ft-btn {
+  text-align: right;
+}
+.ft-btn > a {
+  vertical-align: middle;
+}
+.ft-btn > form {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+form > * {
+  margin-left: 20px;
+}
+
+select {
+  color: #818181;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 1px solid #818181;
+  font-size: inherit;
+  padding: 3px;
+}
+
+select,
+input {
+  cursor: pointer;
+}
+select:focus,
+input:focus{
+    outline: none;
+}
