@@ -1,4 +1,27 @@
 /* ----------debug---------- */
+.row {
+  height: 450px;
+}
+
+main section .w-33 {
+  height: 100%;
+  margin: calc(1% / 6);
+  padding: 40px;
+  background-color: blueviolet;
+}
+.w-33 img {
+  width: 40%;
+}
+
+main section .w-50 {
+  height: 100%;
+  text-align: left;
+  background-color: chartreuse;
+}
+.w-50 img {
+  height: 100%;
+}
+
 /* ----------/debug---------- */
 
 /* ----------common---------- */
@@ -10,7 +33,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-header {
+body > header {
   height: 600px;
   padding-top: 20px;
   background-color: #0c325a;
@@ -41,8 +64,8 @@ header {
 .w-50 {
   width: 50%;
 }
-.w-25 {
-  width: 25%;
+.w-33 {
+  width: 33%;
 }
 
 /* buttons */
@@ -151,5 +174,32 @@ h1 {
 }
 
 /* ----------main---------- */
+main {
+  height: 1000px;
+  color: #818181;
+  text-align: center;
+}
+main > header {
+  position: relative;
+  height: 150px;
+  background-color: #d3d3d3;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-text h2 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+.main-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
 
 /* ----------footer---------- */
