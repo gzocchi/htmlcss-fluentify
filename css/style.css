@@ -42,7 +42,7 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: white !important; 
   font-size: 10px;
   font-weight: 400;
   overflow: hidden;
@@ -70,26 +70,13 @@ body {
   border: 1px solid #7cbb02;
 } */
 
-/* ----------layer---------- */
-.layer {
+/* help */
+
+.help {
   position: fixed;
-  height: 100vh;
-  width: 100%;
-  z-index: 0;
-  /* background-color: red; */
-}
-.layer > .help {
-  position: absolute;
   bottom: 1%;
   right: 15%;
   z-index: 2;
-}
-
-a,
-select,
-input {
-  position: relative;
-  z-index: 1;
 }
 
 /* hr space */
@@ -159,6 +146,9 @@ body > header {
   text-decoration: none;
   color: white;
 }
+.list-inline a:hover {
+  color: #7cbb02;
+}
 
 .jumbotron {
   position: relative;
@@ -180,7 +170,6 @@ h1 {
 
 /* ----------main---------- */
 main {
-  /* height: 1000px; */
   height: 100%;
   color: #818181;
   text-align: center;
@@ -190,7 +179,6 @@ main > header {
   position: relative;
   height: 150px;
   background-color: #d3d3d3;
-  z-index: -1;
 }
 .main-text {
   position: absolute;
@@ -213,9 +201,6 @@ main h2 {
 .row {
   margin-top: 35px;
 }
-.box-image {
-  display: inline-block;
-}
 
 .box.w-33 {
   height: 100%;
@@ -228,6 +213,7 @@ main h2 {
 }
 .box.w-33 img {
   width: 100%;
+  max-height: 150px;
 }
 
 .w-33 .box-text {
@@ -307,7 +293,8 @@ select {
 }
 
 select,
-input {
+input,
+img {
   cursor: pointer;
 }
 select:focus,
