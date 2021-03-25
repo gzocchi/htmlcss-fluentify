@@ -32,6 +32,12 @@ body {
 .fluentify-green {
   color: #7cbb02;
 }
+.bg-c-blue {
+  background-color: #0c325a;
+}
+.bg-c-grey {
+  background-color: #d3d3d3;
+}
 
 .w-100 {
   width: 100%;
@@ -107,7 +113,6 @@ body {
 body > header {
   height: 600px;
   padding-top: 20px;
-  background-color: #0c325a;
   background-image: url(../img/background-header.png);
   background-size: 80%;
   background-repeat: no-repeat;
@@ -186,7 +191,6 @@ main > header {
   position: relative;
   height: 150px;
   margin-bottom: 50px;
-  background-color: #d3d3d3;
 }
 .main-text {
   position: absolute;
@@ -229,9 +233,9 @@ main h2 {
   height: 60%;
   padding-top: 20px;
 }
-.box.w-33 h2 {
+/* .box.w-33 h2 {
   color: #7cbb02;
-}
+} */
 
 .box.w-50 {
   height: 100%;
@@ -278,8 +282,6 @@ main h2 {
 .center-box {
   display: inline-block;
   height: 100%;
-  margin-bottom: 50px;
-  /* background-color: red; */
 }
 .center-box img {
   width: 100%;
@@ -299,7 +301,6 @@ section.banner {
   height: 150px;
   line-height: 150px;
   margin: 100px 0;
-  background-color: #d3d3d3;
   color: #818181;
 }
 
@@ -362,6 +363,22 @@ input:focus {
 .banner-btn_test span,
 .banner-btn_test a {
   margin-left: 20px;
+}
+
+/* main footer */
+main > footer {
+  margin: 50px 0;
+}
+main > footer .w-33 {
+  margin: 50px;
+  text-align: left;
+}
+main > footer h2 {
+  font-size: 23px;
+  color: white;
+}
+main > footer p {
+  margin: 40px 0;
 }
 
 /* ----------footer---------- */
