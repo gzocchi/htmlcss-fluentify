@@ -58,16 +58,17 @@ body {
   background-color: #7cbb02;
   border: 1px solid #7cbb02;
 }
-.btn-blue {
+.btn-blue,
+.btn-green:hover {
   background-color: #0c325a;
   border: 1px solid white;
 }
 
-.btn-green:hover {
+/* .btn-green:hover {
   background-color: white;
   color: #7cbb02;
   border: 1px solid #7cbb02;
-}
+} */
 
 /* ----------layer---------- */
 .layer {
