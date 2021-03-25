@@ -70,24 +70,26 @@ body {
 }
 
 /* ----------layer---------- */
-/* header,*/
-/* main,
-footer {
-  position: relative;
-  z-index: 1; 
-} 
 .layer {
   position: fixed;
   height: 100vh;
   width: 100%;
   z-index: 0;
+  /* background-color: red; */
 }
 .layer > .help {
   position: absolute;
   bottom: 1%;
   right: 15%;
+  z-index: 2;
+}
+
+a,
+select,
+input {
+  position: relative;
   z-index: 1;
-} */
+}
 
 /* hr space */
 .space {
@@ -303,8 +305,7 @@ select {
 }
 
 select,
-input,
-img {
+input {
   cursor: pointer;
 }
 select:focus,
@@ -313,6 +314,13 @@ input:focus {
 }
 
 /* footer senza select */
+#without-form {
+  display: none;
+}
+/* #with-form {
+  display: none;
+} */
+
 .ft-btn_test span {
   text-align: left;
   border-bottom: 1px solid #818181;
