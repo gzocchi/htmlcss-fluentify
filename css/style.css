@@ -14,6 +14,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.box.w-50 a,
+.center-box a,
+.w-20 a {
+  font-size: 13px;
+}
+
 .container {
   width: 80%;
   height: 100%;
@@ -32,11 +38,24 @@ body {
 .fluentify-green {
   color: #7cbb02;
 }
+.azure {
+  color: #5a8abe;
+}
+.orange {
+  color: #fea600;
+}
+.white {
+  color: white;
+}
+
 .bg-c-blue {
   background-color: #0c325a;
 }
 .bg-c-grey {
   background-color: #d3d3d3;
+}
+.bg-c-white {
+  background-color: white;
 }
 
 .w-100 {
@@ -47,6 +66,9 @@ body {
 }
 .w-33 {
   width: 33%;
+}
+.w-20 {
+  width: 20%;
 }
 
 /* buttons */
@@ -107,6 +129,9 @@ body {
 .main-space {
   width: 97%;
   margin: 50px 0;
+}
+.big-space {
+  border: 2px solid;
 }
 
 /* ----------header---------- */
@@ -261,11 +286,6 @@ main h2 {
 .box.w-50 p {
   margin-bottom: 20px;
 }
-.box.w-50 a,
-.center-box a {
-  color: #5a8abe;
-  font-size: 13px;
-}
 
 .box-text > div.clearfix {
   text-align: center;
@@ -369,16 +389,48 @@ input:focus {
 main > footer {
   margin: 50px 0;
 }
-main > footer .w-33 {
+main > footer .w-33,
+.w-20 {
   margin: 50px;
   text-align: left;
 }
-main > footer h2 {
+main > footer .w-33 h2,
+#faq h2 {
   font-size: 23px;
-  color: white;
 }
-main > footer p {
+main > footer .w-33 p {
   margin: 40px 0;
+}
+
+footer > section {
+  padding: 40px;
+}
+footer > section h2 {
+  margin-bottom: 40px;
+  color: #000000;
+}
+.w-20 {
+  height: 100%;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  /* background-color: red; */
+}
+.w-20 img {
+  width: 20%;
+}
+.w-20 > * {
+  margin-bottom: 20px;
+}
+
+#faq {
+  padding: 20px;
+  text-align: left;
+}
+
+#faq a {
+  color: #fea600;
+  text-decoration: none;
 }
 
 /* ----------footer---------- */
