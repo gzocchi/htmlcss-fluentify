@@ -29,6 +29,10 @@ body {
   display: table;
 }
 
+.fluentify-green {
+  color: #7cbb02;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -253,7 +257,8 @@ main h2 {
 .box.w-50 p {
   margin-bottom: 20px;
 }
-.box.w-50 a {
+.box.w-50 a,
+.center-box a {
   color: #5a8abe;
   font-size: 13px;
 }
@@ -267,6 +272,26 @@ main h2 {
 .box-text > div.clearfix .btn {
   display: block;
   text-align: left;
+}
+
+/* center-box */
+.center-box {
+  display: inline-block;
+  height: 100%;
+  margin-bottom: 50px;
+  /* background-color: red; */
+}
+.center-box img {
+  width: 100%;
+}
+h3 {
+  color: #000000;
+}
+div.center-box p:first-of-type {
+  font-size: 10px;
+}
+.center-box > * {
+  margin-bottom: 15px;
 }
 
 /* banner */
