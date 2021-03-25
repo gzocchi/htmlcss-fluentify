@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    
+
     <!-- bottone fixed sempre visibile -->
     <a href="#" class="help btn btn-green">help</a>
     <!-- /bottone fixed sempre visibile -->
 
     <!-- testata della pagina  -->
-    <header>
+    <header class="bg-c-blue">
 
         <!-- sezione centrata con 80% di larghezza -->
         <div class="container">
@@ -86,7 +86,7 @@
     <main>
 
         <!-- suddivisione main -->
-        <header>
+        <header class="bg-c-grey">
             <div class="main-text">
                 <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
                 <p>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
@@ -103,7 +103,7 @@
                     </div>
 
                     <div class="box-text">
-                        <h2>Piano formativo configurato sul proprio livello</h2>
+                        <h2 class="fluentify-green">Piano formativo configurato sul proprio livello</h2>
                         <hr class="space box-space">
                         <p>Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze
                             personali
@@ -123,7 +123,7 @@
                     </div>
 
                     <div class="box-text">
-                        <h2>Affiancamento costante del tutor</h2>
+                        <h2 class="fluentify-green">Affiancamento costante del tutor</h2>
                         <hr class="space box-space">
                         <p>Scopri il syllabus, la guida per il tuo percorso. Scegli gli argomenti per passare al
                             livello
@@ -140,7 +140,7 @@
                     </div>
 
                     <div class="box-text">
-                        <h2>Monitora i tuoi progressi costantemente</h2>
+                        <h2 class="fluentify-green">Monitora i tuoi progressi costantemente</h2>
                         <hr class="space box-space">
                         <p>Controlla i tuoi progressi con i dati elaborati dal nostro sistema. Hai il pieno
                             controllo su
@@ -173,7 +173,7 @@
                             tuo
                             inglese, ad oggi.
                         </p>
-                        <a href="#">Scopri il nostro test di placement</a>
+                        <a class="azure" href="#">Scopri il nostro test di placement</a>
 
                     </div>
 
@@ -182,62 +182,222 @@
             </div>
         </section>
 
-    </main>
-    <!-- /corpo della pagina -->
+        <!-- banner con form -->
+        <section class="banner bg-c-grey" id="with-form">
+            <div class="container clearfix">
 
-    <!-- footer con form -->
-    <footer id="with-form">
+                <div class="banner-text w-50 float-left">
+                    <h2>Struttura un piano</h2>
+                </div>
 
-        <div class="container clearfix">
+                <div class="banner-btn w-50 float-left">
 
-            <div class="ft-text w-50 float-left">
-                <h2>Struttura un piano</h2>
-            </div>
+                    <form action="#" method="GET">
+                        <label for="plan">Sono</label>
+                        <select id="plan" name="plan_select">
+                            <option value="#">Seleziona </option>
+                            <option value="lorem">Lorem Ipsum</option>
+                            <option value="dolor">Dolor Sit</option>
+                            <option value="amet">Amet Consectetur</option>
+                            <option value="adipisicing">Adipisicing Elit</option>
+                        </select>
+                        <input class="btn btn-lg btn-green" type="submit" value="Visualizza il tuo piano">
+                    </form>
 
-            <div class="ft-btn w-50 float-left">
-
-                <form action="#" method="GET">
-                    <label for="plan">Sono</label>
-                    <select id="plan" name="plan_select">
-                        <option value="#">Seleziona </option>
-                        <option value="lorem">Lorem Ipsum</option>
-                        <option value="dolor">Dolor Sit</option>
-                        <option value="amet">Amet Consectetur</option>
-                        <option value="adipisicing">Adipisicing Elit</option>
-                    </select>
-                    <input class="btn btn-lg btn-green" type="submit" value="Visualizza il tuo piano">
-                </form>
+                </div>
 
             </div>
 
-        </div>
+        </section>
+        <!-- /banner con form -->
 
-    </footer>
-    <!-- /footer con form -->
+        <!-- banner senza form -->
+        <section class="banner" id="without-form">
 
-    <!-- footer senza form -->
-    <footer id="without-form">
+            <div class="container clearfix">
 
-        <div class="container clearfix">
+                <div class="banner-text w-50 float-left">
+                    <h2>Struttura un piano</h2>
+                </div>
 
-            <div class="ft-text w-50 float-left">
-                <h2>Struttura un piano</h2>
+                <div class="banner-btn_test w-50 float-left">
+
+                    <p>
+                        Sono
+                        <span>Seleziona <i class="fas fa-sort-down"></i></span>
+                        <a class="btn btn-lg btn-green" href="#">Visualizza il tuo piano</a>
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="ft-btn_test w-50 float-left">
+        </section>
+        <!-- /banner senza form -->
 
-                <p>
-                    Sono
-                    <span>Seleziona <i class="fas fa-sort-down"></i></span>
-                    <a class="btn btn-lg btn-green" href="#">Visualizza il tuo piano</a>
+        <section class="row">
+            <div class="container clearfix">
+
+                <div class="box w-50 float-left">
+                    <div class="box-image">
+                        <img src="img/shakehands.svg" alt="Real Life English">
+                    </div>
+                </div>
+
+                <div class="box w-50 float-left">
+
+                    <div class="box-text">
+
+                        <h2>Solo l'inglese che ti serve davvero</h2>
+                        <p>Molto più di semplici conversazioni, le sessioni con i nostri tutor ricreano le più diverse
+                            situazioni professionali.
+                        </p>
+
+                        <div class="w-100 clearfix">
+
+                            <div class="w-50 float-left">
+                                <a class="btn btn-green" href="#">Scopri il real life english</a>
+                            </div>
+
+                            <div class="w-50 float-left">
+                                <a class="azure" href="#">Un metodo totalmente improntato sullo speaking</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="space main-space">
+
+        <section class="row">
+            <div class="container">
+
+                <div class="w-50 center-box">
+
+                    <img src="img/set.svg" alt="Ci trovi su PC, Mobile e Tablet">
+                    <h3>Ci trovi su PC, Mobile e Tablet, <span class="fluentify-green">27/7</span>.</h3>
+                    <p>Tutor da tutto il mondo disponibili 24 ore al giorno 7 giorni su 7, anche nei weekend</p>
+                    <p>Tutto direttamente sul tuo pc grazie alla videoconferenza integrata nella piattaforma e sui
+                        dispositivi mobile con la app dedicata.
+                    </p>
+                    <a class="azure" href="#">Come funziona</a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="bg-c-blue">
+
+            <div class="container clearfix">
+
+                <div class="w-33 float-left">
+
+                    <h2 class="white">Fai parlare inglese alla tua azienda</h2>
+                    <p>Piani formativi personalizzati e specifici per ogni esigenza, con tutti gli strumenti di
+                        controllo che ti servono per monitorare il tuo investimento.
+                    </p>
+                    <a class="btn btn-green" href="#">scopri come</a>
+
+                </div>
+
+            </div>
+
+            <section class="bg-c-white">
+                <div class="container">
+
+                    <h2>Struttura un piano</h2>
+
+                    <div class="w-20">
+                        <img src="img/student.svg" alt="Studente">
+                        <h3>Sono uno studente</h3>
+                        <p>Desideri superare un esame certificato, migliorare la tua fluency o prepararti per un viaggio
+                            all'estero?
+                        </p>
+                        <hr class="big-space azure">
+                        <a class="azure" href="#">Struttura un piano</a>
+                    </div>
+
+                    <div class="w-20">
+                        <img src="img/worker.svg" alt="Professionista">
+                        <h3>Sono uno professionista</h3>
+                        <p>Vuoi prepararti per un colloquio, migliorare la tua fluency o superare un esame certificato?
+                        </p>
+                        <hr class="big-space orange">
+                        <a class="orange" href="#">Struttura un piano</a>
+                    </div>
+
+                    <div class="w-20">
+                        <img src="img/business.svg" alt="Azienda">
+                        <h3>Sono un'azienda</h3>
+                        <p>Sei un HR in cerca di un piano formativo su misura e innovativo adatto per la tua azienda?
+                        </p>
+                        <hr class="big-space fluentify-green">
+                        <a class="fluentify-green" href="#">Struttura un piano</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <div id="faq" class="container">
+
+                <h2 class="white">Dubbi? Consulta le nostre <a class="orange" href="">FAQs</a></h2>
+                <p>Oppure contattaci via e-mail o su facebook
                 </p>
 
             </div>
 
-        </div>
+        </footer>
 
+    </main>
+    <!-- /corpo della pagina -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container clearfix">
+
+            <div class="footer-sx float-left">
+                <h3 class="white">Azienda</h3>
+                <ul>
+                    <li>
+                        <a href="#">Therms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                    <li>
+                        <a href="#">Contattaci</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookie Setting</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-dx float-left">
+                <h3 class="white">FLUENTIFY <span>&copy;</span> 2019</h3>
+                <h3 class="white">Designet and built in London <span>&amp;</span> Torino</h3>
+                <p>
+                    Bilinguo LTD <br>
+                    Company's registered number: 8423300 <br>
+                    Telephone: +44 (0) 20 81338469
+                </p>
+            </div>
+
+        </div>
     </footer>
-    <!-- /footer senza form -->
+    <!-- /footer -->
 
 </body>
 
