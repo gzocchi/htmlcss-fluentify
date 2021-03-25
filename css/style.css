@@ -257,27 +257,27 @@ main h2 {
   font-size: 13px;
 }
 
-/* ----------footer---------- */
-footer {
+/* banner */
+section.banner {
   height: 150px;
   line-height: 150px;
   background-color: #d3d3d3;
   color: #818181;
 }
 
-.ft-text h2 {
+.banner-text h2 {
   font-size: 30px;
   color: #000000;
   vertical-align: middle;
 }
 
-.ft-btn,
-.ft-btn_test {
+.banner-btn,
+.banner-btn_test {
   text-align: right;
 }
 
-.ft-btn > form,
-.ft-btn_test {
+.banner-btn > form,
+.banner-btn_test {
   display: inline-block;
   vertical-align: middle;
 }
@@ -305,7 +305,7 @@ input:focus {
   outline: none;
 }
 
-/* footer senza select */
+/* banner senza select */
 #without-form {
   display: none;
 }
@@ -313,15 +313,17 @@ input:focus {
   display: none;
 } */
 
-.ft-btn_test span {
+.banner-btn_test span {
   text-align: left;
   border-bottom: 1px solid #818181;
 }
-.ft-btn_test i {
+.banner-btn_test i {
   font-size: 20px;
   margin-left: 80px;
 }
-.ft-btn_test span,
-.ft-btn_test a {
+.banner-btn_test span,
+.banner-btn_test a {
   margin-left: 20px;
 }
+
+/* ----------footer---------- */
