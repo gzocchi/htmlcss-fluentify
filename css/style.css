@@ -278,13 +278,13 @@ footer {
   vertical-align: middle;
 }
 
-.ft-btn {
+.ft-btn,
+.ft-btn_test {
   text-align: right;
 }
-.ft-btn > a {
-  vertical-align: middle;
-}
-.ft-btn > form {
+
+.ft-btn > form,
+.ft-btn_test {
   display: inline-block;
   vertical-align: middle;
 }
@@ -310,4 +310,18 @@ img {
 select:focus,
 input:focus {
   outline: none;
+}
+
+/* footer senza select */
+.ft-btn_test span {
+  text-align: left;
+  border-bottom: 1px solid #818181;
+}
+.ft-btn_test i {
+  font-size: 20px;
+  margin-left: 80px;
+}
+.ft-btn_test span,
+.ft-btn_test a {
+  margin-left: 20px;
 }
