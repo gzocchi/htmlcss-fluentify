@@ -190,6 +190,7 @@ main > header {
   position: relative;
   height: 150px;
   background-color: #d3d3d3;
+  z-index: -1;
 }
 .main-text {
   position: absolute;
