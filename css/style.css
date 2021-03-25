@@ -53,7 +53,8 @@ body {
   font-weight: 500;
 }
 
-.btn-green {
+.btn-green,
+.btn-blue:hover {
   background-color: #7cbb02;
   border: 1px solid #7cbb02;
 }
@@ -62,18 +63,24 @@ body {
   border: 1px solid white;
 }
 
+.btn-green:hover {
+  background-color: white;
+  color: #7cbb02;
+  border: 1px solid #7cbb02;
+}
+
 /* ----------layer---------- */
-/* header,
-main,
+/* header,*/
+/* main,
 footer {
   position: relative;
   z-index: 1; 
-}
+} 
 .layer {
   position: fixed;
   height: 100vh;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
 }
 .layer > .help {
   position: absolute;
@@ -296,7 +303,8 @@ select {
 }
 
 select,
-input {
+input,
+img {
   cursor: pointer;
 }
 select:focus,
